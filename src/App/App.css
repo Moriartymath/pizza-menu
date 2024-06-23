@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
   height: 100%;
   padding: 2rem;
 }
