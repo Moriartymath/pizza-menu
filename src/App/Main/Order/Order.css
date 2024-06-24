@@ -1,0 +1,8 @@
+.order--container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}

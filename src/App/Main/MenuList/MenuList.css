@@ -1,0 +1,8 @@
+.menu--list {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 2em;
+  align-content: center;
+  justify-content: center;
+  margin-left: 4em;
+}
