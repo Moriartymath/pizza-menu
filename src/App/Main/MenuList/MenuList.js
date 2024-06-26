@@ -52,7 +52,7 @@ function MenuList() {
   useEffect(() => {
     setData((arr) => {
       const readyData = pizzaData.map((pizza, index) => {
-        const { name, ingredients, photoName, price } = pizza;
+        const { name, ingredients, photoName, price, soldOut } = pizza;
         return (
           <MenuItem
             key={index}
@@ -60,6 +60,7 @@ function MenuList() {
             image={photoName}
             ingredients={ingredients}
             price={price}
+            soldOut={soldOut}
           />
         );
       });

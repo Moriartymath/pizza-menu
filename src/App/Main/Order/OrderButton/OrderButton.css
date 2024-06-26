@@ -1,5 +1,13 @@
 .order--button {
   font-size: 1.3rem;
-  width: auto;
-  padding: 1.2em;
+  width: 15%;
+  padding: 0.8em;
+  background: yellow;
+  border-width: 1px;
+  user-select: none;
+}
+
+.order--button:active:focus {
+  background: rgb(255, 250, 175);
+  transform: scale(0.99);
 }
